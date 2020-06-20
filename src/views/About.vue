@@ -129,8 +129,8 @@ export default {
 .track {
   background: #fff;
   .track__heading {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url('../assets/images/track2.jpg');
+    background: linear-gradient(rgba(4, 9, 30, 0.9), rgba(4, 9, 30, 0.9)),
+      url('../assets/images/slider-3.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;

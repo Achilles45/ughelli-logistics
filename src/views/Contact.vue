@@ -15,7 +15,7 @@
           <h6><i class="fa fa-home"></i>&nbsp; Corporate Office</h6>
           <p>I7 E 52nd st, New York, NY 10022, United State of America</p>
           <h6><i class="fa fa-envelope"></i>&nbsp; Support Mail</h6>
-           <p><a href="mailto:info@worldexpressdelivery.net" class="">info@worldexpressdelivery.net</a></p>
+           <p><a href="mailto:info@worlddeliveryservice.net" class="">info@worlddelivery.net</a></p>
              <h6><i class="fa fa-phone"></i>&nbsp; Phone Number</h6>
            <p><a href="tel:+17165626430" class="">+17165626430</a></p><br>
         </div>

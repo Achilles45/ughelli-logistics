@@ -10,7 +10,7 @@
             the world.
           </p> <br>
           <h6>For enquiries, send mails to</h6>
-            <a href="mailto:info@worldexpressdelivery.net">info@worldexpressdelivery.net</a>
+            <a href="mailto:info@worlddeliveryservice.net">info@worlddeliveryservice.net</a>
           <h6>You can also contact us at</h6>
           <p>I7 E 52nd st, New York, NY 10022, United State of America</p>
         </div>

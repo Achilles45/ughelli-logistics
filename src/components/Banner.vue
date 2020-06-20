@@ -4,21 +4,21 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="carousel-overlay"></div>
-          <img class="carousel-img" src="../assets/images/track1.jpg" alt="First slide" />
+          <img class="carousel-img" src="../assets/images/slider-2.jpg" alt="First slide" />
           <div class="carousel-caption">
-             <h5 class="animated slideInDown animate3d">Reliable and Flexible Logistics</h5>
-            <h2 class="animated bounceIn animate3d">Personalized cargo services in worldwide commerce</h2>
+             <h5 class="animate__animated animate__slideInDown animate3d">Reliable and Flexible Logistics</h5>
+            <h2 class="animate__animated bounceIn animate3d">Personalized cargo services in worldwide commerce</h2>
             <!-- <router-link to="/products" class="carousel-btn animated zoomIn animate3d">See Products</router-link> -->
           </div>
         </div>
         <div class="carousel-item">
           <div class="carousel-overlay"></div>
-          <img class="carousel-img" src="../assets/images/track2.jpg" alt="Second slide" />
+          <img class="carousel-img" src="../assets/images/slider-3.jpg" alt="Second slide" />
           <div class="carousel-caption">
             <h5>Reliable and Flexible Logistics</h5>
-            <h2 class="animated slideInLeft animate2d">Send and receive pakages around the world easily</h2>
+            <h2 class="animate__animated animate__slideInLeft animate2d">Send and receive pakages around the world easily</h2>
             <p
-              class="animated slideInRight animate3d"
+              class="animate__animated animate__slideInRight animate3d"
             >The logistics partner you can trust for all your logistics needs.</p>
             <!-- <router-link to="/contact" class="carousel-btn animated zoomIn animate3d">Invest Now</router-link> -->
           </div>
@@ -76,7 +76,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
   }
   .carousel-img {
     width: auto;
