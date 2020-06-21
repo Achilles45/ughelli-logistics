@@ -7,7 +7,7 @@
         <div class="navbar__logo pt-2">
           <router-link to="/" class="logo">
            <h5><img src="../assets/images/logo2.png" class="logo__img" alt=""
-          /> <span class="blue">WORLD</span> <span class="red">DELIVERY SERVICE</span></h5>
+          /> <span class="blue d-none d-md-block">WORLD</span> <span class="red d-none d-md-block">DELIVERY SERVICE</span></h5>
           </router-link>
         </div>
         <div class="navbar__links">
@@ -18,17 +18,22 @@
            <li><router-link to="/request" class="quote__btn">Request a quote</router-link></li>
           </ul>
         </div>
+        <div class="translate__wrapper">
+          <!-- <p>Translate this website</p> -->
+          <div id="google_translate_element"></div>
+        </div>
         <div class="navbar__toggler" @click="toggleNav()">
          <i class="fa fa-bars"></i>
         </div>
       </div>
-    </div>
+  </div>
   </div>
 </template>
 
 <script>
 export default {
    mounted(){
+      this.googleTranslateElementInit();
        this.fixNav();
     },
   methods: {
@@ -38,6 +43,9 @@ export default {
       navbarToggler.addEventListener('click', () => {
         nav.classList.toggle('show__nav')
       })
+    },
+    googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
     },
     fixNav:function(){
              const nav = document.querySelector('.navbar__wrapper');
@@ -61,6 +69,9 @@ export default {
   padding: .7rem 0;
   // position: fixed;
   z-index: 100;
+  .translate__wrapper{
+    margin-right: 2rem;
+  }
   .logo{
        text-decoration: none !important;
   }
@@ -113,12 +124,20 @@ export default {
 }
 //MEDIA QUERIES
 @media only screen and (max-width: 1000px) {
+   .logo__img {
+    max-width: 90px !important;
+    height: auto;
+  }
+  .translate__wrapper{
+    margin-right: 2rem !important;
+  }
   h5{
-    font-size: 1rem !important;
+    font-size: .7rem !important;
   }
   .navbar__toggler {
     display: block !important;
     cursor: pointer;
+    padding-right: 2rem !important;
   }
   ul {
     background: #000;

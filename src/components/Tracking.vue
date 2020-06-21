@@ -46,11 +46,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .tracking {
-  margin-top: 3rem;
-  position: absolute;
-  top: 90%;
-  width: 100%;
-  z-index: 1000 !important;
   .tracking__wrapper{
     background: #FB7E12;
     padding: 1.5rem 5rem;
