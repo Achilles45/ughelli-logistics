@@ -38,7 +38,7 @@
       <br />
       <hr />
       <small
-        >&copy; All right reserved. World Express Delivery. 2020.</small
+        >&copy; All right reserved. Global Express Service. 2017.</small
       >
     </div>
   </footer>
