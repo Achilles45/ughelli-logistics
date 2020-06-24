@@ -13,11 +13,11 @@
         <div class="col-md-5">
           <h3 class="pb-3">Get in touch with us 24 X 7</h3>
           <h6><i class="fa fa-home"></i>&nbsp; Corporate Office</h6>
-          <p>1095 14th Ave #47 , New York, NY 10047, United States of America</p>
+          <p>New York, NY 10047, United States of America</p>
           <h6><i class="fa fa-envelope"></i>&nbsp; Support Mail</h6>
            <p><a href="mailto:support@globaldeliveryservice.net" class="">support@globaldeliveryservice.net</a></p>
              <h6><i class="fa fa-phone"></i>&nbsp; Phone Number</h6>
-           <p><a href="tel:+17165626430" class="">+17165626430</a></p><br>
+           <p><a href="tel:+1 (347) 899‑3855" class="">+1 (347) 899‑3855</a></p><br>
         </div>
         <div class="col-md-5">
           <form @submit.prevent="sendMessage()">

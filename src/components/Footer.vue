@@ -12,7 +12,7 @@
           <h6>For enquiries, send mails to</h6>
             <a href="mailto:support@globaldeliveryservice.net">support@globaldeliveryservice.net</a>
           <h6>You can also contact us at</h6>
-          <p>1095 14th Ave #47 , New York, NY 10047, United States of America</p>
+          <p>New York, NY 10047, United States of America</p>
         </div>
         <div class="col-md-4">
           <h3>Useful Links</h3>
