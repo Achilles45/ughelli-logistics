@@ -7,7 +7,7 @@
         <div class="navbar__logo pt-2">
           <router-link to="/" class="logo">
            <h5><img src="../assets/images/logo2.png" class="logo__img" alt=""
-          /> <span class="blue d-none d-md-block">WORLD</span> <span class="red d-none d-md-block">DELIVERY SERVICE</span></h5>
+          /> <span class="blue">WORLD</span> <span class="red">DELIVERY SERVICE</span></h5>
           </router-link>
         </div>
         <div class="navbar__links">
@@ -125,14 +125,14 @@ export default {
 //MEDIA QUERIES
 @media only screen and (max-width: 1000px) {
    .logo__img {
-    max-width: 90px !important;
+    max-width: 50px !important;
     height: auto;
   }
   .translate__wrapper{
     margin-right: 2rem !important;
   }
   h5{
-    font-size: .7rem !important;
+    font-size: .5rem !important;
   }
   .navbar__toggler {
     display: block !important;
