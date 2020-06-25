@@ -38,7 +38,7 @@
       <br />
       <hr />
       <small
-        >&copy; All right reserved. Global Express Service. 2017.</small
+        >&copy; All right reserved. Global Delivery Service. 2017.</small
       >
     </div>
   </footer>
