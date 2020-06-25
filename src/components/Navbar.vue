@@ -6,7 +6,7 @@
       >
         <div class="navbar__logo pt-2">
           <router-link to="/" class="logo">
-           <h5><img src="../assets/images/logo2.png" class="logo__img" alt=""
+           <h5><img src="../assets/images/logo.jpg" class="logo__img" alt=""
           /> <span class="blue">GLOBAL</span> <span class="red">DELIVERY SERVICE</span></h5>
           </router-link>
         </div>
